@@ -1,0 +1,98 @@
+.container_menu {
+    background-color: rgb(52, 57, 63);
+    height: 80px;
+    margin: 0rem 1rem 0rem 1rem;
+    padding: 0;
+}
+    
+.menu {
+    display: inline-flex;
+  }
+
+.logo{
+    width: 90px;
+    height: 60px;
+    margin-top: .5rem;
+    margin-left: 5rem;    
+}
+
+.nav_izquierda {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 0.4rem;
+    margin: 1rem 12rem 1rem 1rem;
+    font-size: 16px;
+}
+
+.nav_derecha {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 16px;
+    color: grey
+    }
+.nav_derecha > li{
+    margin-right: 2rem;
+    padding-top: 1.4rem;
+}
+
+.nav_derecha > li > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: grey;    
+}
+
+.nav_derecha > li > a:hover {
+    color: white;
+}
+
+.cont_img {
+    margin:0rem 1rem;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+       
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.cont_info {
+    position: absolute;
+    bottom: 10rem;
+    right: 6rem;
+    left: 40rem;
+
+}
+
+.titulo_info {
+    color: white;
+    font-size: 40px;
+    font: bold;
+}
+.info {
+    color: white;
+    font:bold;   
+}
+
+.btn1 {
+    border-radius: .5rem;
+    border-color: white;
+    margin-right: .5rem;
+    background-color: transparent;
+    color: white;
+    padding: .6rem;
+    font: bold;
+
+}
+.btn2 {
+    border-radius: 0.5rem;
+    border-color:transparent;
+    background-color: rgb(42, 167, 67);
+    color:white;
+    padding: .6rem;
+    font: bold;
+}
+
