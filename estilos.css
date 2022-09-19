@@ -50,7 +50,7 @@
     margin:0rem 1rem;
     position: relative;
     display: inline-block;
-    text-align: right;
+    
        
 }
 
@@ -61,10 +61,12 @@ img {
 
 .cont_info {
     position: absolute;
-    bottom: 10rem;
-    right: 6rem;
+    top: 25rem;
+    bottom: 11rem;
+    right: 8rem;
     left: 40rem;
-
+    bottom: 0rem;
+    text-align: right;    
 }
 
 .titulo_info {
@@ -96,3 +98,102 @@ img {
     font: bold;
 }
 
+.tt_orador {
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    margin: 0rem 1rem;
+}
+
+.tt_1 {
+    color:gray;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.tt_2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    
+}
+.oradores {
+    display: inline-flex;
+    margin: 0rem 1rem;
+         
+}
+
+.steve_boton  {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: .7rem;     
+}
+.bill_boton {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: .7rem; 
+}
+.ada_boton {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: .7rem; 
+}
+
+.js_bt {
+    background-color: yellow;
+    border: none;
+    font-weight: bold;  
+    border-radius: .3rem;    
+}
+.react_bt {
+    background-color: aqua;
+    border:none;
+    font-weight: bold;
+    border-radius: .3rem;    
+}
+
+.negocios_bt {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .3rem;
+}
+
+.star_bt {
+    color:white;
+    border: none;
+    background-color: brown;
+    border-radius: .3rem;
+
+}
+.steve_jobs {
+    height: 100%;
+    width: 30%;
+    margin: .5rem 1rem 0rem 15rem;
+    
+}
+
+.bill_gates {
+    height: 100%;
+    width: 30%;
+    margin: .5rem 1rem 0rem 1rem;   
+}
+.ada_lovelace {
+    height: 100%;
+    width: 30%;
+    margin: .5rem 15rem 0rem 1rem;  
+}
+
+.oradores > h4{
+    font: bold;
+}
+
+.titulo_orador {
+    margin-left: 1rem;
+}
+
+.text_orador {
+    margin-left: 1rem;
+    font-size: .9rem;
+}
